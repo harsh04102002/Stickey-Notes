@@ -1,0 +1,33 @@
+.row_block {
+  cursor: move;
+  height: 200px;
+  width: 200px;
+  border-radius: 6px;
+  margin: 20px;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  color: #000;
+  font-weight: 600;
+}
+
+.block_set {
+  margin: 10px;
+  height: 30px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #eee;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.block_content {
+  margin: 10px;
+  height: 30px;
+  font-size: 0.8rem;
+  text-align: justify;
+  border-radius: 6px;
+  padding: 5px;
+}
