@@ -1,8 +1,8 @@
 .row_block {
   cursor: move;
-  height: 200px;
-  width: 200px;
-  border-radius: 6px;
+  /* height: 200px;
+  width: 200px; */
+  border-radius: 10px;
   margin: 20px;
   display: flex;
   justify-content: left;
@@ -11,23 +11,42 @@
   font-weight: 600;
 }
 
-.block_set {
+input {
   margin: 10px;
   height: 30px;
   width: 100px;
+  color: #eee;
+  border-radius: 0 16px 16px 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #eee;
-  border-radius: 6px;
-  background-color: rgba(0, 0, 0, 0.6);
+  border: none;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
-.block_content {
-  margin: 10px;
+input[type="text"] {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: inherit;
+  font-weight: 500;
+  color: #ddd;
+}
+
+textarea,
+textarea:focus,
+textarea:active {
+  margin: 5px;
   height: 30px;
   font-size: 0.8rem;
   text-align: justify;
   border-radius: 6px;
-  padding: 5px;
+  background-color: transparent;
+  font-family: inherit;
+  font-weight: 500;
+  border: none;
+  border-radius: 2px;
+  height: 120px;
+  width: 180px;
+  resize: none;
+  padding: 2px;
 }
